@@ -1,6 +1,10 @@
 # NanoTV - Professional Media Player / 专业媒体播放器
 
 <p align="center">
+  <img src="images/logo_white.png" alt="NanoTV Logo" width="128" height="128">
+</p>
+
+<p align="center">
   <a href="https://apps.apple.com/us/app/nanotv/id6754768796">
     <img src="https://img.shields.io/badge/App_Store-Download-blue?style=for-the-badge&logo=apple" alt="Download on the App Store">
   </a>
@@ -42,6 +46,10 @@
 - **字幕翻译**: 提供实时的多语言字幕翻译功能。
 
 ---
+
+## 📸 Screenshots / 截图
+
+![NanoTV Home](images/home_en.png)
 
 ## 📥 Download / 下载
 
