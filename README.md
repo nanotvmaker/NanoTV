@@ -55,7 +55,7 @@
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **App Store** (Stable) | 1.2.17 (Build 117) | [Download Here](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **App Store** (Stable) | 1.2.18 (Build 123) | [Download Here](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | 1.2.18 (Build 123) | [Join Beta](https://testflight.apple.com/join/FcMTsEMc) |
 
 ---
@@ -69,7 +69,7 @@
 - **优化**: 1080i 反交错渲染优化。
 - **修复**: User-Agent 定制修复及异常退出问题。
 
-### Latest Stable: v1.2.17 (Build 117)
+### Previous Versions: v1.2.17 (Build 117)
 - **New**: Added support for **TvHeadend** subscriptions.
 - **Optimization**: Enhanced H.265 and 4K HLG playback performance.
 - **新增**: 支持 TvHeadend 类型订阅。
