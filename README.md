@@ -77,6 +77,15 @@
 
 ---
 
+## ❓ FAQ / 常见问题
+
+For instructions on enabling Real-time Subtitles, Translation, or Custom API, please visit our FAQ page.
+关于如何启动实时字幕、翻译功能或配置自定义接口，请访问常见问题页面。
+
+👉 **[Read the FAQ / 阅读常见问题](FAQ.md)**
+
+---
+
 ## 💬 Feedback & Support / 反馈与支持
 
 We use GitHub Issues to track bugs and feature requests.
