@@ -62,7 +62,7 @@
 
 ## 📝 Release Notes / 更新日志
 
-### Latest Beta: v1.2.18 (Build 123)
+### Latest Stable: v1.2.18 (Build 123)
 - **Optimization**: Improved 1080i de-interlacing rendering.
 - **Fix**: User-Agent customization issue fixed.
 - **Fix**: Resolved an abnormal exit crash.
