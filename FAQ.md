@@ -89,3 +89,21 @@ Go to **Settings - Real-time Subtitle & Translation - Translation Service Config
 
 Click **Verify / 验证**. If successful, you can now use real-time translation during playback by selecting your target language in the **Translate** menu.
 点击 **验证** 按钮，如果通过，播放视频时，点击菜单上的 **翻译** 按钮选择翻译目标语言后，转录时就可以进行实时翻译。
+
+---
+
+## 🆓 Is there a free/public translation service? / 是否有公益的翻译服务？
+
+Yes - Thanks to Linxudo Jacopo for providing the public interest translation service.
+有的 - 感谢 Linxudo Jacopo 提供的公益翻译服务。
+
+**Setup Method / 接入方法**:
+Open NanoTV, go to **Settings > Real-time Subtitle & Translation > Translation Service Configuration**, and configure the **Custom API**:
+打开 NanoTV 进入 **设置** > **实时字幕和翻译** > **翻译服务配置** 窗口，在 **定制接口** 进行配置：
+
+1. **Base URL**: `https://translate.houlang.cloud`
+2. **Path URL**: Keep default / 保持不变
+3. **Auth Token / 认证令牌**: Leave blank / 不需要输入，留空
+4. Click **Verify / 点击验证**. If it shows service available, you are all set. / 如果显示服务可用，就可以了。
+
+- **Source / 信息来源**: [https://linux.do/t/topic/1616910](https://linux.do/t/topic/1616910)

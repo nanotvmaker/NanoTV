@@ -79,10 +79,11 @@
 
 ## ❓ FAQ / 常见问题
 
-For instructions on enabling Real-time Subtitles, Translation, or Custom API, please visit our FAQ page.
-关于如何启动实时字幕、翻译功能或配置自定义接口，请访问常见问题页面。
+Having trouble? Check our [**FAQ Document**](FAQ.md) for solutions.
+遇到问题？查看我们的 [**常见问题解答 (FAQ)**](FAQ.md) 获取帮助。
 
-👉 **[Read the FAQ / 阅读常见问题](FAQ.md)**
+- [How to enable Real-time Subtitles / 如何启动实时字幕](FAQ.md#%EF%B8%8F-how-to-enable-real-time-subtitles--如何启动实时字幕功能)
+- [How to configure Translation API / 如何配置翻译接口](FAQ.md#%EF%B8%8F-how-to-add-custom-translation-api--如何添加自定义翻译接口)
 
 ---
 
@@ -93,3 +94,12 @@ We use GitHub Issues to track bugs and feature requests.
 
 - **Found a bug?** [Open a Bug Report](https://github.com/nanotvmaker/NanoTV/issues/new?template=bug_report.md) / 提交 Bug
 - **Have an idea?** [Submit a Feature Request](https://github.com/nanotvmaker/NanoTV/issues/new?template=feature_request.md) / 提交功能建议
+
+---
+
+## 📢 Community / 社区
+
+Join our Telegram channel for information feedback and latest updates.
+欢迎加入我们的 Telegram 频道，进行信息反馈和了解最新的 App 更新。
+
+👉 **[https://t.me/nanotvinfo](https://t.me/nanotvinfo)**
