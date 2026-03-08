@@ -47,6 +47,32 @@ Here you can find answers to common questions about using NanoTV features.
 
 ---
 
+<a id="multiple-epg"></a>
+
+## 📺 How to configure multiple EPG URLs (comma-separated) / 如何配置多 EPG（逗号分隔）
+
+NanoTV supports entering multiple EPG sources in one input field, separated by commas.
+NanoTV 支持在同一个 EPG 输入框中配置多个节目单地址，使用英文逗号分隔。
+
+### Example / 示例
+
+```text
+https://epg1.example.com/guide.xml,https://epg2.example.com/epg.xml,https://epg3.example.com/tv.xml
+```
+
+### Tips / 使用建议
+
+1. Use full `http://` or `https://` URLs for each EPG source.
+   每个 EPG 地址都应填写完整的 `http://` 或 `https://` 链接。
+2. Use **English commas** `,` as separators, and do not use Chinese commas `，`.
+   分隔符请使用**英文逗号** `,`，不要使用中文逗号 `，`。
+3. Do not add extra spaces before/after URLs where possible.
+   建议不要在 URL 前后添加多余空格。
+4. If one source is temporarily unavailable, keep other valid sources so guide loading can still succeed.
+   如果某个节目单源暂时不可用，保留其他可用源，仍可提高节目单加载成功率。
+
+---
+
 ## 🛠️ How to add Custom Translation API / 如何添加自定义翻译接口
 
 We support self-hosted translation services compatible with Google Translate API format, such as [MTranServer](https://github.com/xxnuo/MTranServer).

@@ -55,25 +55,35 @@
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **App Store** (Stable) | 1.2.18 (Build 123) | [Download Here](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **TestFlight** (Beta) | 1.2.18 (Build 123) | [Join Beta](https://testflight.apple.com/join/FcMTsEMc) |
+| **App Store** (Stable) | 1.2.20 (Build 133) | [Download Here](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **TestFlight** (Beta) | 1.2.20 (Build 133) | [Join Beta](https://testflight.apple.com/join/FcMTsEMc) |
 
 ---
 
 ## 📝 Release Notes / 更新日志
 
-### Latest Stable: v1.2.18 (Build 123)
+### Latest Stable: v1.2.20 (Build 133)
+- **New**: Support multiple user-defined EPG inputs (comma-separated).
+- **New**: Support iOS 17.0 and above (iOS).
+- **New**: Support HomePod audio output and remote control during playback (tvOS).
+- **Optimization**: Optimized 4K HLG 10-bit playback.
+- **Optimization**: Optimized TVHeadend channel list order.
+- **Fix**: Chinese target language was missing when using customized translation provider.
+- **Fix**: Fixed playlist refresh issue that could fail to update channel list.
+- **新增**: 支持多 EPG 电子节目单输入（逗号分隔）。
+- **新增**: 支持 iOS 17.0 或以上版本（iOS）。
+- **新增**: 支持 HomePod 音频输出和播放时远程控制（tvOS）。
+- **优化**: 优化 4K HLG 10-bit 播放。
+- **优化**: 优化 TVHeadend 频道列表显示顺序。
+- **修复**: 配置自定义翻译接口后，翻译目标语言缺少简体中文。
+- **修复**: 修复订阅刷新有时无法更新频道列表的问题。
+
+### Previous Versions: v1.2.18 (Build 123)
 - **Optimization**: Improved 1080i de-interlacing rendering.
 - **Fix**: User-Agent customization issue fixed.
 - **Fix**: Resolved an abnormal exit crash.
 - **优化**: 1080i 反交错渲染优化。
 - **修复**: User-Agent 定制修复及异常退出问题。
-
-### Previous Versions: v1.2.17 (Build 117)
-- **New**: Added support for **TvHeadend** subscriptions.
-- **Optimization**: Enhanced H.265 and 4K HLG playback performance.
-- **新增**: 支持 TvHeadend 类型订阅。
-- **优化**: 优化 H.265 和 4K HLG 播放体验。
 
 ---
 
@@ -83,6 +93,7 @@ Having trouble? Check our [**FAQ Document**](FAQ.md) for solutions.
 遇到问题？查看我们的 [**常见问题解答 (FAQ)**](FAQ.md) 获取帮助。
 
 - [How to enable Real-time Subtitles / 如何启动实时字幕](FAQ.md#%EF%B8%8F-how-to-enable-real-time-subtitles--如何启动实时字幕功能)
+- [How to configure multiple EPG URLs / 如何配置多 EPG](FAQ.md#multiple-epg)
 - [How to configure Translation API / 如何配置翻译接口](FAQ.md#%EF%B8%8F-how-to-add-custom-translation-api--如何添加自定义翻译接口)
 
 ---
