@@ -55,14 +55,22 @@
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **App Store** (Stable) | 1.2.20 (Build 133) | [Download Here](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **TestFlight** (Beta) | 1.2.20 (Build 133) | [Join Beta](https://testflight.apple.com/join/FcMTsEMc) |
+| **App Store** (Stable) | 1.2.21 (Build 134) | [Download Here](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **TestFlight** (Beta) | 1.2.21 (Build 134) | [Join Beta](https://testflight.apple.com/join/FcMTsEMc) |
 
 ---
 
 ## 📝 Release Notes / 更新日志
 
-### Latest Stable: v1.2.20 (Build 133)
+### Latest Stable: v1.2.21 (Build 134)
+- **Optimization**: tvOS supports switching channels with Up/Down keys (click or swipe up/down). _Enable this feature in Settings first._
+- **Optimization**: tvOS supports automatically hiding the EPG program guide.
+- **Optimization**: tvOS channel information window display. _When Up/Down key support is enabled, use the Right key or swipe right to open it._
+- **优化**: tvOS 支持使用上下键切换频道（点击或上下滑动）。_需先在设置中开启此功能。_
+- **优化**: tvOS 支持自动隐藏 EPG 节目单。
+- **优化**: tvOS 支持频道信息窗口显示。_在开启上下键后，使用右键或向右滑动打开该功能。_
+
+### Previous Versions: v1.2.20 (Build 133)
 - **New**: Support multiple user-defined EPG inputs (comma-separated).
 - **New**: Support iOS 17.0 and above (iOS).
 - **New**: Support HomePod audio output and remote control during playback (tvOS).
