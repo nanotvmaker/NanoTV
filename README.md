@@ -13,9 +13,9 @@
   </a>
 </p>
 
-**NanoTV** is a feature-rich, high-performance media player designed for **Apple TV, iPhone, and iPad**. We are dedicated to providing the best viewing experience, combining powerful features with a clean interface design.
+**NanoTV** is a feature-rich, high-performance media player designed for **macOS, Apple TV, iPhone, and iPad**. We are dedicated to providing the best viewing experience, combining powerful features with a clean interface design.
 
-**NanoTV** 是一款专为 Apple TV、iPhone 和 iPad 打造的强大媒体播放器。我们将强大功能与简洁界面完美结合，为您提供卓越的观影体验。
+**NanoTV** 是一款专为 **macOS**, Apple TV, iPhone 和 iPad 打造的强大媒体播放器。我们将强大功能与简洁界面完美结合，为您提供卓越的观影体验。
 
 🌐 **Website / 官网**: [nanotv.app](https://nanotv.app)
 
@@ -24,11 +24,13 @@
 ## ✨ Features / 主要功能
 
 ### 🚀 Core Experience / 核心体验
+- **Multi-Platform**: Seamlessly sync subscriptions and settings via **iCloud** across macOS, iOS and tvOS.
+- **macOS Optimized**: Brand-new UI design for macOS with a stunning EPG interface for easy program browsing.
 - **Hardware Acceleration**: Supports H.264/H.265 encoding for smooth HD playback.
-- **Multi-Platform**: Seamlessly sync subscriptions and settings via **iCloud** across iOS and tvOS.
 - **Modern UI**: Full support for Light, Dark, and System modes.
+- **多端同步**: 支持 iCloud 同步，在 macOS, iPhone, iPad 和 Apple TV 间无缝切换。
+- **macOS 深度优化**: 针对 macOS 全新设计的 UI 界面，以及美观实用的节目指南 (EPG) 界面。
 - **硬解播放**: 支持 H.264/H.265 硬件加速，高清流畅。
-- **多端同步**: 支持 iCloud 同步，在 iPhone, iPad 和 Apple TV 间无缝切换。
 - **外观模式**: 完美支持深色、浅色及跟随系统模式。
 
 ### 📺 Playback & Sources / 播放与源管理
@@ -47,78 +49,39 @@
 
 ---
 
-## 📸 Screenshots / 截图
-
-![NanoTV Home](images/home_en.png)
-
 ## 📥 Download / 下载
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **App Store** (Stable) | 1.2.21 (Build 134) | [Download Here](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **macOS** (Stable) | 1.1 (Build 24) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS / tvOS** (Stable) | 1.2.21 (Build 134) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | 1.2.21 (Build 134) | [Join Beta](https://testflight.apple.com/join/FcMTsEMc) |
 
 ---
 
 ## 📝 Release Notes / 更新日志
 
-### Latest Stable: v1.2.21 (Build 134)
-- **Optimization**: tvOS supports switching channels with Up/Down keys (click or swipe up/down). _Enable this feature in Settings first._
+### Latest macOS Release: v1.1 (Build 24)
+- **New UI Design**: Beyond iOS features, it includes a brand-new UI design tailored for macOS to provide a fresh experience.
+- **Enhanced EPG**: A visually stunning and convenient Program Guide (EPG) interface for easier program information browsing.
+- **全新 UI 设计**: 除了 iOS 已有功能外，对 UI 界面做了全新设计，给用户带来全新的体验。
+- **增强型 EPG**: 设计了非常美观好看方便用户查询节目信息的节目指南 (EPG) 界面。
+
+### Latest iOS/tvOS Stable: v1.2.21 (Build 134)
+- **Optimization**: tvOS supports switching channels with Up/Down keys.
 - **Optimization**: tvOS supports automatically hiding the EPG program guide.
-- **Optimization**: tvOS channel information window display. _When Up/Down key support is enabled, use the Right key or swipe right to open it._
-- **优化**: tvOS 支持使用上下键切换频道（点击或上下滑动）。_需先在设置中开启此功能。_
+- **优化**: tvOS 支持使用上下键切换频道。
 - **优化**: tvOS 支持自动隐藏 EPG 节目单。
-- **优化**: tvOS 支持频道信息窗口显示。_在开启上下键后，使用右键或向右滑动打开该功能。_
-
-### Previous Versions: v1.2.20 (Build 133)
-- **New**: Support multiple user-defined EPG inputs (comma-separated).
-- **New**: Support iOS 17.0 and above (iOS).
-- **New**: Support HomePod audio output and remote control during playback (tvOS).
-- **Optimization**: Optimized 4K HLG 10-bit playback.
-- **Optimization**: Optimized TVHeadend channel list order.
-- **Fix**: Chinese target language was missing when using customized translation provider.
-- **Fix**: Fixed playlist refresh issue that could fail to update channel list.
-- **新增**: 支持多 EPG 电子节目单输入（逗号分隔）。
-- **新增**: 支持 iOS 17.0 或以上版本（iOS）。
-- **新增**: 支持 HomePod 音频输出和播放时远程控制（tvOS）。
-- **优化**: 优化 4K HLG 10-bit 播放。
-- **优化**: 优化 TVHeadend 频道列表显示顺序。
-- **修复**: 配置自定义翻译接口后，翻译目标语言缺少简体中文。
-- **修复**: 修复订阅刷新有时无法更新频道列表的问题。
-
-### Previous Versions: v1.2.18 (Build 123)
-- **Optimization**: Improved 1080i de-interlacing rendering.
-- **Fix**: User-Agent customization issue fixed.
-- **Fix**: Resolved an abnormal exit crash.
-- **优化**: 1080i 反交错渲染优化。
-- **修复**: User-Agent 定制修复及异常退出问题。
 
 ---
 
 ## ❓ FAQ / 常见问题
 
-Having trouble? Check our [**FAQ Document**](FAQ.md) for solutions.
-遇到问题？查看我们的 [**常见问题解答 (FAQ)**](FAQ.md) 获取帮助。
-
-- [How to enable Real-time Subtitles / 如何启动实时字幕](FAQ.md#%EF%B8%8F-how-to-enable-real-time-subtitles--如何启动实时字幕功能)
-- [How to configure multiple EPG URLs / 如何配置多 EPG](FAQ.md#multiple-epg)
-- [How to configure Translation API / 如何配置翻译接口](FAQ.md#%EF%B8%8F-how-to-add-custom-translation-api--如何添加自定义翻译接口)
+Having trouble? Check our [**macOS Help Document**](HELP_macOS.md) or [**General FAQ**](FAQ.md).
+遇到问题？查看我们的 [**macOS 帮助文档**](HELP_macOS.md) 或 [**常见问题解答 (FAQ)**](FAQ.md)。
 
 ---
 
 ## 💬 Feedback & Support / 反馈与支持
 
-We use GitHub Issues to track bugs and feature requests.
-我们使用 GitHub Issues 来追踪问题和功能建议。
-
-- **Found a bug?** [Open a Bug Report](https://github.com/nanotvmaker/NanoTV/issues/new?template=bug_report.md) / 提交 Bug
-- **Have an idea?** [Submit a Feature Request](https://github.com/nanotvmaker/NanoTV/issues/new?template=feature_request.md) / 提交功能建议
-
----
-
-## 📢 Community / 社区
-
-Join our Telegram channel for information feedback and latest updates.
-欢迎加入我们的 Telegram 频道，进行信息反馈和了解最新的 App 更新。
-
-👉 **[https://t.me/nanotvinfo](https://t.me/nanotvinfo)**
+👉 **Telegram Community**: [https://t.me/nanotvinfo](https://t.me/nanotvinfo)
