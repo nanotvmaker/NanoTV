@@ -65,7 +65,7 @@
 - **New UI Design**: Beyond iOS features, it includes a brand-new UI design tailored for macOS to provide a fresh experience.
 - **Enhanced EPG**: A visually stunning and convenient Program Guide (EPG) interface for easier program information browsing.
 - **全新 UI 设计**: 除了 iOS 已有功能外，对 UI 界面做了全新设计，给用户带来全新的体验。
-- **增强型 EPG**: 设计了非常美观好看方便用户查询节目信息的节目指南 (EPG) 界面。
+- **增强型 EPG**: 重新设计了方便用户查询节目信息的节目指南 (EPG) 界面。
 
 ### Latest iOS/tvOS Stable: v1.2.21 (Build 134)
 - **Optimization**: tvOS supports switching channels with Up/Down keys.
