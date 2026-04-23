@@ -78,7 +78,7 @@
 ## ❓ FAQ / 常见问题
 
 Having trouble? Check our [**macOS Help Document**](HELP_macOS.md) or [**General FAQ**](FAQ.md).
-遇到问题？查看我们的 [**macOS 帮助文档**](HELP_macOS.md) 或 [**常见问题解答 (FAQ)**](FAQ.md)。
+遇到问题？查看我们的 [**macOS 帮助文档**](macOS_help.md) 或 [**常见问题解答 (FAQ)**](FAQ.md)。
 
 ---
 
