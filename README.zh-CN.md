@@ -12,9 +12,6 @@
   <a href="https://apps.apple.com/us/app/nanotv/id6754768796">
     <img src="https://img.shields.io/badge/App_Store-下载-blue?style=for-the-badge&logo=apple" alt="在 App Store 下载">
   </a>
-  <a href="https://testflight.apple.com/join/FcMTsEMc">
-    <img src="https://img.shields.io/badge/TestFlight-加入测试-orange?style=for-the-badge&logo=testflight" alt="加入 TestFlight">
-  </a>
 </p>
 
 **NanoTV** 是一款专为 **macOS**、Apple TV、iPhone 和 iPad 打造的强大媒体播放器。我们将强大功能与简洁界面完美结合，为您提供卓越的观影体验。
@@ -46,21 +43,49 @@
 
 | 平台 | 版本 | 链接 |
 |------|------|------|
-| **macOS** (稳定版) | 1.1 (Build 24) | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS / tvOS** (稳定版) | 1.2.21 (Build 134) | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **TestFlight** (测试版) | 1.2.21 (Build 134) | [加入测试](https://testflight.apple.com/join/FcMTsEMc) |
+| **macOS** (稳定版) | 1.3.3 (Build 30) | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS** (稳定版) | 1.2.25 (Build 139) | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (稳定版) | 1.3.3 (Build 30) | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **TestFlight** (测试版) | — | 暂停开放 |
 
 ---
 
 ## 📝 更新日志
 
-### 最新 macOS 版本: v1.1 (Build 24)
-- **全新 UI 设计**: 除了 iOS 已有功能外，对 UI 界面做了全新设计，给用户带来全新的体验。
-- **增强型 EPG**: 重新设计了方便用户查询节目信息的节目指南 (EPG) 界面。
+### 最新 iOS 版本: v1.2.25 (Build 139)
 
-### 最新 iOS/tvOS 稳定版: v1.2.21 (Build 134)
-- **优化**: tvOS 支持使用上下键切换频道。
-- **优化**: tvOS 支持自动隐藏 EPG 节目单。
+✅ **新功能：EPG 节目指南**
+- **独立标签页入口** *(iOS 18.0 及以上)*：新增独立 EPG 标签栏，支持一站式浏览已订阅的节目指南并直接切台播放。
+- **智能内容翻译**：新增 EPG 节目单英中双语实时翻译功能，可在「设置 - EPG 节目单设置」中开启。
+- **交互设计**：支持点击频道或节目快速预览右侧海报及详情；引入侧滑手势，向左滑动隐藏 / 向右滑动恢复订阅列表。
+
+✅ **播放器与全屏体验优化**
+- **全屏无缝切台**：全屏模式下新增「订阅与频道列表菜单」（含 EPG 显示），支持在不退出全屏的情况下直接切换频道。
+- **退出按钮**：全屏界面左上角新增返回按钮，支持一键退出播放，优化退出逻辑。
+- **iPad 优化**：iPad 用户在横屏下点击频道将直接进入全屏播放。
+
+✅ **细节调整与优化**
+- 新增字幕字体大小调节功能（「设置 - 播放设置」），并优化了字幕背景显示效果。
+- 视觉优化：优化订阅列表、频道列表及频道编码信息界面的视觉呈现。
+- 手势增强：订阅与频道列表新增左滑菜单手势，操作更便捷。
+- 支持画面比例设置。
+- 订阅格式解释优化。
+- 本地订阅类型可编辑。
+
+### 最新 macOS 版本: v1.3.3 (Build 30)
+- **字幕字体大小**：支持字幕字体大小设置（设置 - 播放设置 - 字幕字体大小）。
+- **节目指南**：优化节目指南中订阅列表显示顺序；增加节目单窗口和内容翻译。
+- 支持画面比例设置。
+- 订阅格式解释优化。
+- 本地订阅类型可编辑。
+
+### 最新 tvOS 版本: v1.3.3 (Build 30)
+- **字幕字体大小**：支持字幕字体大小设置（设置 - 播放设置 - 字幕字体大小）。
+- **节目指南**：优化节目指南中订阅列表显示顺序；增加节目单窗口和内容翻译。
+- **首页海报**：增加首页海报显示（可在设置里配置开关）。
+- 支持画面比例设置。
+- 订阅格式解释优化。
+- 本地订阅类型可编辑。
 
 ---
 

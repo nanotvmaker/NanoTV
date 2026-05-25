@@ -12,9 +12,6 @@
   <a href="https://apps.apple.com/us/app/nanotv/id6754768796">
     <img src="https://img.shields.io/badge/App_Store-Download-blue?style=for-the-badge&logo=apple" alt="Download on the App Store">
   </a>
-  <a href="https://testflight.apple.com/join/FcMTsEMc">
-    <img src="https://img.shields.io/badge/TestFlight-Join_Beta-orange?style=for-the-badge&logo=testflight" alt="Join TestFlight">
-  </a>
 </p>
 
 **NanoTV** is a feature-rich, high-performance media player designed for **macOS, Apple TV, iPhone, and iPad**. We are dedicated to providing the best viewing experience, combining powerful features with a clean interface design.
@@ -46,21 +43,49 @@
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **macOS** (Stable) | 1.1 (Build 24) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS / tvOS** (Stable) | 1.2.21 (Build 134) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **TestFlight** (Beta) | 1.2.21 (Build 134) | [Join Beta](https://testflight.apple.com/join/FcMTsEMc) |
+| **macOS** (Stable) | 1.3.3 (Build 30) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS** (Stable) | 1.2.25 (Build 139) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (Stable) | 1.3.3 (Build 30) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **TestFlight** (Beta) | — | Temporarily unavailable |
 
 ---
 
 ## 📝 Release Notes
 
-### Latest macOS Release: v1.1 (Build 24)
-- **New UI Design**: Beyond iOS features, it includes a brand-new UI design tailored for macOS to provide a fresh experience.
-- **Enhanced EPG**: A visually stunning and convenient Program Guide (EPG) interface for easier program information browsing.
+### Latest iOS Release: v1.2.25 (Build 139)
 
-### Latest iOS/tvOS Stable: v1.2.21 (Build 134)
-- **Optimization**: tvOS supports switching channels with Up/Down keys.
-- **Optimization**: tvOS supports automatically hiding the EPG program guide.
+✅ **New Feature: EPG Program Guide**
+- **Dedicated Tab** *(iOS 18.0+)*: New standalone EPG tab for one-stop program browsing with direct channel switching.
+- **Smart Translation**: Real-time English ↔ Chinese EPG translation, configurable in *Settings → EPG Settings*.
+- **Interaction Design**: Tap a channel or program to preview the poster and details; swipe left/right to hide or restore the subscription list.
+
+✅ **Player & Full-Screen Improvements**
+- **Seamless Channel Switching**: New subscription & channel list menu (with EPG) available in full-screen mode — switch channels without exiting full screen.
+- **Exit Button**: Back button added to the top-left in full screen for one-tap exit.
+- **iPad Enhancement**: Tapping a channel in landscape automatically enters full screen.
+
+✅ **Other Improvements**
+- Subtitle font size adjustment (*Settings → Playback Settings*); improved subtitle background display.
+- Visual improvements to subscription list, channel list, and channel codec info views.
+- New left-swipe menu gesture on subscription and channel lists.
+- Support for aspect ratio settings.
+- Improved subscription format descriptions.
+- Local subscription types are now editable.
+
+### Latest macOS Release: v1.3.3 (Build 30)
+- **Subtitle Font Size**: Adjustable in *Settings → Playback Settings → Subtitle Font Size*.
+- **Program Guide**: Optimized subscription list display order; added EPG window and content translation.
+- Support for aspect ratio settings.
+- Improved subscription format descriptions.
+- Local subscription types are now editable.
+
+### Latest tvOS Release: v1.3.3 (Build 30)
+- **Subtitle Font Size**: Adjustable in *Settings → Playback Settings → Subtitle Font Size*.
+- **Program Guide**: Optimized subscription list display order; added EPG window and content translation.
+- **Home Screen Poster**: New poster display on the home screen (configurable in Settings).
+- Support for aspect ratio settings.
+- Improved subscription format descriptions.
+- Local subscription types are now editable.
 
 ---
 
