@@ -43,8 +43,8 @@
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **macOS** (Stable) | 1.3.3 (Build 30) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS** (Stable) | 1.2.25 (Build 139) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **macOS** (Stable) | 1.3.4 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS** (Stable) | 1.2.26 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **tvOS** (Stable) | 1.3.3 (Build 30) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | — | Temporarily unavailable |
 
@@ -52,7 +52,28 @@
 
 ## 📝 Release Notes
 
-### Latest iOS Release: v1.2.25 (Build 139)
+### Latest iOS Release: v1.2.26
+
+✅ **New Feature: Apple Native Translation (iOS & macOS)**
+- Ultra-fast, offline translation — no internet connection required
+- First use requires downloading language packs
+- Requires iOS 18.0 or above
+
+✅ **Improvements**
+- Optimized EPG program guide window (iOS)
+
+### Latest macOS Release: v1.3.4
+
+✅ **New Feature: Apple Native Translation**
+- Ultra-fast, offline translation — no internet connection required
+- First use requires downloading language packs
+
+---
+
+<details>
+<summary>📋 Previous Releases</summary>
+
+### iOS v1.2.25 (Build 139)
 
 ✅ **New Feature: EPG Program Guide**
 - **Dedicated Tab** *(iOS 18.0+)*: New standalone EPG tab for one-stop program browsing with direct channel switching.
@@ -72,20 +93,22 @@
 - Improved subscription format descriptions.
 - Local subscription types are now editable.
 
-### Latest macOS Release: v1.3.3 (Build 30)
+### macOS v1.3.3 (Build 30)
 - **Subtitle Font Size**: Adjustable in *Settings → Playback Settings → Subtitle Font Size*.
 - **Program Guide**: Optimized subscription list display order; added EPG window and content translation.
 - Support for aspect ratio settings.
 - Improved subscription format descriptions.
 - Local subscription types are now editable.
 
-### Latest tvOS Release: v1.3.3 (Build 30)
+### tvOS v1.3.3 (Build 30)
 - **Subtitle Font Size**: Adjustable in *Settings → Playback Settings → Subtitle Font Size*.
 - **Program Guide**: Optimized subscription list display order; added EPG window and content translation.
 - **Home Screen Poster**: New poster display on the home screen (configurable in Settings).
 - Support for aspect ratio settings.
 - Improved subscription format descriptions.
 - Local subscription types are now editable.
+
+</details>
 
 ---
 
