@@ -29,7 +29,7 @@
 - **Modern UI**: Full support for Light, Dark, and System modes.
 
 ### 📺 Playback & Sources
-- **Flexible Subscriptions**: Supports **M3U**, **TXT**, **Xtream Codes API**, and **TVHeadend**.
+- **Flexible Subscriptions**: Supports **M3U**, **TXT**, **Xtream Codes API**, **Stalker Portal**, and **TVHeadend**.
 - **Remote Management**: Manage playlists remotely via phone or computer.
 - **EPG Support**: Electronic Program Guide with automatic translation (English ↔ Chinese).
 
@@ -43,16 +43,30 @@
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **macOS** (Stable) | 1.3.4 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS** (Stable) | 1.2.26 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **tvOS** (Stable) | 1.3.3 (Build 30) | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **macOS** (Stable) | 1.3.6 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS** (Stable) | 1.2.28 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (Stable) | 1.2.28 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | — | Temporarily unavailable |
 
 ---
 
 ## 📝 Release Notes
 
-### Latest iOS Release: v1.2.26
+### Latest Release: iOS v1.2.28 · macOS v1.3.6 · tvOS v1.2.28
+
+✅ **New Feature: Stalker Portal Subscriptions**
+- NanoTV now supports a rich set of subscription types, including **M3U**, **Xtream Codes**, **Stalker Portal**, and **TVHeadend**.
+
+✅ **Improvements**
+- Optimized EPG download handling (now tolerates incorrect EPG file extensions).
+- Optimized video playback (reduced video stutter on macOS).
+
+---
+
+<details>
+<summary>📋 Previous Releases</summary>
+
+### iOS v1.2.26 / macOS v1.3.4
 
 ✅ **New Feature: Apple Native Translation (iOS & macOS)**
 - Ultra-fast, offline translation — no internet connection required
@@ -61,17 +75,6 @@
 
 ✅ **Improvements**
 - Optimized EPG program guide window (iOS)
-
-### Latest macOS Release: v1.3.4
-
-✅ **New Feature: Apple Native Translation**
-- Ultra-fast, offline translation — no internet connection required
-- First use requires downloading language packs
-
----
-
-<details>
-<summary>📋 Previous Releases</summary>
 
 ### iOS v1.2.25 (Build 139)
 

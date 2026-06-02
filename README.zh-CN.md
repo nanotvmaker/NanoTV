@@ -29,7 +29,7 @@
 - **外观模式**: 完美支持深色、浅色及跟随系统模式。
 
 ### 📺 播放与源管理
-- **多格式支持**: 支持 M3U/TXT、Xtream Codes、TVHeadend 等多种订阅方式。
+- **多格式支持**: 支持 M3U/TXT、Xtream Codes、Stalker Portal、TVHeadend 等多种订阅方式。
 - **远程管理**: 手机/电脑远程管理播放列表。
 - **EPG 指南**: 支持节目单显示及自动翻译。
 
@@ -43,16 +43,30 @@
 
 | 平台 | 版本 | 链接 |
 |------|------|------|
-| **macOS** (稳定版) | 1.3.4 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS** (稳定版) | 1.2.26 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **tvOS** (稳定版) | 1.3.3 (Build 30) | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **macOS** (稳定版) | 1.3.6 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS** (稳定版) | 1.2.28 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (稳定版) | 1.2.28 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (测试版) | — | 暂停开放 |
 
 ---
 
 ## 📝 更新日志
 
-### 最新 iOS 版本: v1.2.26
+### 最新版本: iOS v1.2.28 · macOS v1.3.6 · tvOS v1.2.28
+
+✅ **新功能：支持 Stalker Portal 订阅**
+- NanoTV 现已支持非常丰富的订阅类型，包括 **M3U**、**Xtream Codes**、**Stalker Portal**、**TVHeadend**。
+
+✅ **优化**
+- 优化 EPG 下载处理（适配 EPG 文件后缀错误的情况）。
+- 优化视频播放（减少 macOS 视频播放卡顿）。
+
+---
+
+<details>
+<summary>📋 历史版本</summary>
+
+### iOS v1.2.26 / macOS v1.3.4
 
 ✅ **新功能：支持 Apple 原生翻译 (iOS & macOS)**
 - 极速体验、无需联网
@@ -61,17 +75,6 @@
 
 ✅ **优化**
 - EPG 节目单窗口优化（iOS）
-
-### 最新 macOS 版本: v1.3.4
-
-✅ **新功能：支持 Apple 原生翻译**
-- 极速体验、无需联网
-- 首次使用需要下载语言包
-
----
-
-<details>
-<summary>📋 历史版本</summary>
 
 ### iOS v1.2.25 (Build 139)
 
