@@ -36,6 +36,7 @@
 ### 🤖 智能辅助
 - **实时字幕**: 支持多语种实时语音转文字。
 - **字幕翻译**: 提供实时的多语言字幕翻译功能。
+- **内置本地翻译** *(tvOS)*: 由内置模型驱动的本地离线字幕翻译，私密且无需联网（英文 → 中文）。
 
 ---
 
@@ -45,14 +46,26 @@
 |------|------|------|
 | **macOS** (稳定版) | 1.3.6 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **iOS** (稳定版) | 1.2.28 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **tvOS** (稳定版) | 1.2.28 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (稳定版) | 1.2.29 | [在 App Store 下载](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (测试版) | — | 暂停开放 |
 
 ---
 
 ## 📝 更新日志
 
-### 最新版本: iOS v1.2.28 · macOS v1.3.6 · tvOS v1.2.28
+### 最新版本: tvOS v1.2.29
+
+✅ **新功能：内置本地离线翻译**
+- 字幕翻译现可**完全在 Apple TV 本地运行**，由内置模型驱动——私密、离线、无需联网，数据不会离开您的设备。
+- 目前仅支持**英文作为源语言**（英文 → 简体中文 / 繁体中文）。
+- 在「设置 → 实时字幕和翻译设置 → 启用字幕翻译功能」中，进入**本地翻译**视图，选中需要的翻译对，点击**加载并验证**即可。
+
+---
+
+<details>
+<summary>📋 历史版本</summary>
+
+### iOS v1.2.28 · macOS v1.3.6 · tvOS v1.2.28
 
 ✅ **新功能：支持 Stalker Portal 订阅**
 - NanoTV 现已支持非常丰富的订阅类型，包括 **M3U**、**Xtream Codes**、**Stalker Portal**、**TVHeadend**。
@@ -60,11 +73,6 @@
 ✅ **优化**
 - 优化 EPG 下载处理（适配 EPG 文件后缀错误的情况）。
 - 优化视频播放（减少 macOS 视频播放卡顿）。
-
----
-
-<details>
-<summary>📋 历史版本</summary>
 
 ### iOS v1.2.26 / macOS v1.3.4
 

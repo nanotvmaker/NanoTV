@@ -39,6 +39,25 @@ Here you can find answers to common questions about using NanoTV features.
 
 ---
 
+<a id="local-translation"></a>
+
+## 🔒 How to use Built-in On-Device Translation (tvOS)
+
+Starting with **tvOS v1.2.29**, NanoTV can translate subtitles entirely on your Apple TV using a bundled model. Translation runs **100% on-device** — no network connection is used and no data ever leaves your Apple TV.
+
+**Currently supports English as the source language only** (English → Simplified Chinese / Traditional Chinese).
+
+### Setup steps
+
+1. Go to **Settings - Real-time Subtitle & Translation**.
+2. Toggle **Enable Subtitle Translation**.
+3. Open the **Local Translation** view.
+4. Select the translation pair you need, then tap **Load & Validate**.
+
+Once it shows **Service Available**, the pair is ready. During playback, open the menu, tap **Translate**, and choose your target language.
+
+---
+
 <a id="multiple-epg"></a>
 
 ## 📺 How to configure multiple EPG URLs (comma-separated)

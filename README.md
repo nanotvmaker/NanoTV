@@ -36,6 +36,7 @@
 ### 🤖 AI & Accessibility
 - **Real-time Subtitles**: AI-driven speech-to-text (English, Spanish, German, French, Italian).
 - **Live Translation**: Real-time translation of subtitles.
+- **On-Device Translation** *(tvOS)*: Private, offline subtitle translation powered by a bundled model — no network required (English → Chinese).
 
 ---
 
@@ -45,14 +46,26 @@
 |----------|---------|------|
 | **macOS** (Stable) | 1.3.6 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **iOS** (Stable) | 1.2.28 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **tvOS** (Stable) | 1.2.28 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (Stable) | 1.2.29 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | — | Temporarily unavailable |
 
 ---
 
 ## 📝 Release Notes
 
-### Latest Release: iOS v1.2.28 · macOS v1.3.6 · tvOS v1.2.28
+### Latest Release: tvOS v1.2.29
+
+✅ **New Feature: Built-in On-Device Translation**
+- Subtitle translation now runs **entirely on your Apple TV**, powered by a bundled model — private, offline, and no network connection required. No data ever leaves your device.
+- Currently supports **English as the source language** (English → Simplified / Traditional Chinese).
+- Enable it in *Settings → Real-time Subtitles & Translation → Enable Subtitle Translation*, open the **Local Translation** view, select a translation pair, and tap **Load & Validate**.
+
+---
+
+<details>
+<summary>📋 Previous Releases</summary>
+
+### iOS v1.2.28 · macOS v1.3.6 · tvOS v1.2.28
 
 ✅ **New Feature: Stalker Portal Subscriptions**
 - NanoTV now supports a rich set of subscription types, including **M3U**, **Xtream Codes**, **Stalker Portal**, and **TVHeadend**.
@@ -60,11 +73,6 @@
 ✅ **Improvements**
 - Optimized EPG download handling (now tolerates incorrect EPG file extensions).
 - Optimized video playback (reduced video stutter on macOS).
-
----
-
-<details>
-<summary>📋 Previous Releases</summary>
 
 ### iOS v1.2.26 / macOS v1.3.4
 
