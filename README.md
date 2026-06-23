@@ -30,6 +30,8 @@
 
 ### 📺 Playback & Sources
 - **Flexible Subscriptions**: Supports **M3U**, **TXT**, **Xtream Codes API**, **Stalker Portal**, and **TVHeadend**.
+- **All-Channel Search**: Fuzzy matching across all channels, plus exact search by wrapping the query in double quotes `""`.
+- **Custom Subscription Ordering**: Drag and reorder your subscriptions in edit mode.
 - **Remote Management**: Manage playlists remotely via phone or computer.
 - **EPG Support**: Electronic Program Guide with automatic translation (English ↔ Chinese).
 
@@ -44,26 +46,57 @@
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **macOS** (Stable) | 1.3.6 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS** (Stable) | 1.2.28 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **tvOS** (Stable) | 1.2.29 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **macOS** (Stable) | 1.3.13 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS** (Stable) | 1.2.36 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (Stable) | 1.2.35 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | — | Temporarily unavailable |
 
 ---
 
 ## 📝 Release Notes
 
-### Latest Release: tvOS v1.2.29
+### Latest Release: macOS v1.3.13 · tvOS v1.2.35 · iOS v1.2.36
 
-✅ **New Feature: Built-in On-Device Translation**
-- Subtitle translation now runs **entirely on your Apple TV**, powered by a bundled model — private, offline, and no network connection required. No data ever leaves your device.
-- Currently supports **English as the source language** (English → Simplified / Traditional Chinese).
-- Enable it in *Settings → Real-time Subtitles & Translation → Enable Subtitle Translation*, open the **Local Translation** view, select a translation pair, and tap **Load & Validate**.
+<p align="center">
+  <img src="images/tvos-home-v1.3.13.png" alt="NanoTV tvOS Home" width="800">
+</p>
+
+#### 🖥️ macOS v1.3.13
+
+✅ **Improvements**
+- Added Favorite and Sound toggle buttons to the playback interface.
+
+✅ **New Features**
+- **Custom Subscription Ordering**: Enter edit mode to drag and reorder your subscriptions.
+- **All-Channel Search**: Fuzzy matching supported; wrap your query in double quotes `""` for an exact search — finding channels has never been easier.
+
+#### 📺 tvOS v1.2.35
+
+✅ **Improvements**
+- **Redesigned UI & Interaction**: An immersive visual and interaction design tailored for tvOS, making big-screen navigation smoother than ever.
+- **Performance Boost**: Optimized performance with reduced stutter.
+
+✅ **New Features**
+- **All-Channel Search**: Fuzzy matching supported; wrap your query in double quotes `""` for an exact search — finding channels has never been easier.
+- **Custom Subscription Ordering**: Enter edit mode to drag and reorder your subscriptions.
+
+#### 📱 iOS v1.2.36
+
+✅ **New Features**
+- **Custom Subscription Ordering**: Enter edit mode to drag and reorder your subscriptions.
+- **All-Channel Search**: Fuzzy matching supported; wrap your query in double quotes `""` for an exact search — finding channels has never been easier.
 
 ---
 
 <details>
 <summary>📋 Previous Releases</summary>
+
+### tvOS v1.2.29
+
+✅ **New Feature: Built-in On-Device Translation**
+- Subtitle translation now runs **entirely on your Apple TV**, powered by a bundled model — private, offline, and no network connection required. No data ever leaves your device.
+- Currently supports **English as the source language** (English → Simplified / Traditional Chinese).
+- Enable it in *Settings → Real-time Subtitles & Translation → Enable Subtitle Translation*, open the **Local Translation** view, select a translation pair, and tap **Load & Validate**.
 
 ### iOS v1.2.28 · macOS v1.3.6 · tvOS v1.2.28
 
