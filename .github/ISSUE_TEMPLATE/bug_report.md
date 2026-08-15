@@ -29,7 +29,7 @@ If applicable, add screenshots to help explain your problem.
 **Environment / 环境信息 (please complete the following information):**
  - Device (e.g. iPhone 16 Pro, Apple TV 4K):
  - OS Version (e.g. iOS 18.2):
- - NanoTV Version (e.g. 1.2.18):
+ - nanoTV Version (e.g. 1.2.18):
  - Build Number (e.g. 123):
 
 **Additional context / 其他补充**
