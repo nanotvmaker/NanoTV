@@ -61,7 +61,6 @@ Your categories, your rules — subscription groups no longer decide how you bro
 
 ### 🖥 Experience
 - **Immersive Channel Preview** *(Apple TV)*: The home screen hero plays the current channel live, and the TV Guide previews any channel your cursor rests on. Muted by default; sound returns when you go full screen.
-- **CarPlay** *(iPhone)*: CarPlay video works on iOS 16.4 and later, streams every channel available on your iPhone, and supports AI subtitles, audio-track selection and subtitle translation on the car screen.
 - **Favorites & History**: Start from a favorite and channel switching stays inside your favorites; recent channels are one swipe away.
 - **Quick Play**: Paste a link and play it right away (<kbd>⌘N</kbd> on macOS), or submit a URL by QR code on Apple TV. Any quick-play entry can be saved as a subscription.
 - **iCloud Sync**: Keep subscriptions and favorites in sync across Mac, iPhone, iPad and Apple TV, with a sync log that keeps the last 7 days.
@@ -157,15 +156,10 @@ Subscription groups no longer decide how you browse. A single tag holds channels
 - ☁️ **iCloud** — clearer sync log that keeps the last 7 days and cleans up automatically.
 
 ### iOS v1.2.42
-- 🚗 **CarPlay Video** — on iOS 16.4 and later, stream every channel on your iPhone to the car screen, with AI subtitles, audio-track selection and subtitle translation.
 - 🎞 **YADIF 2x Deinterlacing** — 1080i 25fps becomes smooth 50p output. Enable it in *Settings → Playback Settings → 1080i 50p*.
 - 📶 **Live Buffer Control** — set your own live buffer to balance stability against latency, plus fixes for streams with mismatched A/V PTS.
 - ⭐ **Favorites That Stay Put** — start from a favorite and channel switching stays inside your favorites; new favorites entries in the guide sidebar and player.
 - 📡 **AirPlay & Layout** — more reliable AirPlay playback, adaptive search grids and custom card columns.
-
-<p align="center">
-  <img src="images/nanotv-carplay-poster-en.jpg" alt="nanoTV on CarPlay — stream your iPhone channels on the car screen" width="800">
-</p>
 
 ### tvOS v1.2.43
 - 🗣 **Chinese & Japanese AI Subtitles** — live transcription for Mandarin, plus Japanese transcription and translation.
