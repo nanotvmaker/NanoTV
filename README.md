@@ -14,13 +14,23 @@
   </a>
 </p>
 
-**nanoTV** is a feature-rich, high-performance media player for **Mac, Apple TV, iPhone, and iPad**. An AI assistant that finds channels and takes action, cross-subscription channel tags, program reminders, AI real-time subtitles in English, Chinese and Japanese, multi-engine translation, 50p deinterlacing for live sports, and 4K/8K hardware-accelerated playback.
+**nanoTV** is a feature-rich, high-performance media player for **Mac, Apple TV, iPhone, and iPad**. Live TV, movies and series in one place with **Xtream VOD**, **Dolby Vision** playback, an AI assistant that finds channels and takes action, cross-subscription channel tags, program reminders, AI real-time subtitles in English, Chinese and Japanese, multi-engine translation, 50p deinterlacing for live sports, and 4K/8K hardware-accelerated playback.
 
 🌐 **Website**: [nanotv.app](https://nanotv.app)
 
 ---
 
 ## ✨ Features
+
+### 🎬 Xtream VOD: Movies & Series
+
+Live TV, movies and series on one platform. Enable it in *Settings → VOD*.
+
+- **Poster wall & trending**: Xtream VOD metadata is scraped into a poster wall, and the week's TMDB trending titles are matched to your library.
+- **Filter & search**: Filter by genre, year, country/region and language; search by title, director or cast.
+- **Sync everywhere**: Watch progress, favorites and tags sync across Mac, iPhone, iPad and Apple TV via iCloud, with Trakt watch-history sync.
+- **Offline viewing**: Download movies and episodes and watch without a network.
+- **Subtitles**: Search OpenSubtitles, SubDL and SubSource, load local files, or use AI transcription and translation.
 
 ### ✨ AI Assistant
 
@@ -46,6 +56,7 @@ Your categories, your rules — subscription groups no longer decide how you bro
 - **Multi-engine Translation**: Choose the engine that fits you — **Apple on-device translation** (macOS and iOS), **DeepL**, **large language models (LLM)**, **Google**, **Microsoft**, or your own self-hosted API.
 
 ### 🎞 Playback Engine
+- **Dolby Vision**: Profile 5, 8.1 and 8.4 in MKV / MP4 / HLS on supported devices and displays; Apple TV switches your TV into Dolby Vision mode automatically. Dual-layer Profile 7 plays as HDR10.
 - **50p Deinterlacing**: YADIF 2x turns 1080i 25fps into smooth 50p — built for sports and live news.
 - **Frame Rate & Dynamic Range Matching** *(Apple TV)*: Matches the output frame rate (25/50/60fps) and dynamic range (SDR/HDR/HLG) to the source.
 - **Adjustable Live Buffer**: Balance stability against latency on IPTV streams.
@@ -54,16 +65,17 @@ Your categories, your rules — subscription groups no longer decide how you bro
 ### 📺 Sources & Guide
 - **Multi-format Subscriptions**: **M3U**, **Xtream Codes**, **Stalker Portal** and **TVHeadend**. Paste one or more plain URLs with **Text Import**, auto-refresh subscriptions at launch, and keep Xtream Codes groups in a sensible order.
 - **Global Search**: Search channels and EPG programs across every subscription at once. Wrap a term in double quotes `""` for an exact match, and pick up where you left off with search history.
-- **Electronic Program Guide (EPG)**: Zoom the guide grid in and out, browse posters and program categories, and refresh the EPG together with your subscriptions.
+- **Electronic Program Guide (EPG)**: Zoom the guide grid in and out, browse posters and program categories, and refresh the EPG together with your subscriptions. EPG translation detects the source language and translates into the language you choose.
 - **Subscription Sharing & Import**: Turn an M3U, Xtream Codes or Stalker Portal subscription into a QR code to share, and scan it on iPhone, iPad or Mac to add it in one step. nanoTV subscriptions can also be imported straight from Telegram, and the subscription name is optional.
 - **Program Reminders**: Turn notifications on in *Settings → Program Guide*, then long-press a program that hasn't started yet in the guide to set a reminder — or just ask the AI assistant.
 - **Remote Management & Network**: Add subscriptions from a computer or phone — including Xtream Codes, Stalker Portal and TVHeadend via QR code. SOCKS5 and HTTP proxies plus per-subscription User-Agent keep hard-to-reach sources playable.
 
 ### 🖥 Experience
 - **Immersive Channel Preview** *(Apple TV)*: The home screen hero plays the current channel live, and the TV Guide previews any channel your cursor rests on. Muted by default; sound returns when you go full screen.
-- **Favorites & History**: Start from a favorite and channel switching stays inside your favorites; recent channels are one swipe away.
+- **Favorites & History**: Start from a favorite and channel switching stays inside your favorites; recent channels are one swipe away. Sort favorite channels, movies and series, and each channel remembers its subtitle and translation settings.
+- **Multi-window Playback** *(macOS)*: Watch several streams at once — sound follows the active window, and AI subtitles can run in several windows.
 - **Quick Play**: Paste a link and play it right away (<kbd>⌘N</kbd> on macOS), or submit a URL by QR code on Apple TV. Any quick-play entry can be saved as a subscription.
-- **iCloud Sync**: Keep subscriptions and favorites in sync across Mac, iPhone, iPad and Apple TV, with a sync log that keeps the last 7 days.
+- **iCloud Sync**: Keep subscriptions, favorites, channel tags and VOD watch progress in sync across Mac, iPhone, iPad and Apple TV, with a sync log that keeps the last 7 days.
 - **Adaptive Layout & Multi-language UI**: Adaptive grids with a custom number of channel cards per row. Available in English, Simplified and Traditional Chinese, Japanese, Korean, French, Russian, Vietnamese, Arabic and more.
 
 ---
@@ -72,81 +84,85 @@ Your categories, your rules — subscription groups no longer decide how you bro
 
 | Platform | Version | Link |
 |----------|---------|------|
-| **macOS** (Stable) | 1.3.21 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS / iPadOS** (Stable) | 1.2.43 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **tvOS** (Stable) | 1.2.44 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **macOS** (Stable) | 1.3.26 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS / iPadOS** (Stable) | 1.2.47 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (Stable) | 1.2.47 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | — | Temporarily unavailable |
 
 ---
 
 ## 📝 Release Notes
 
-### Latest Release: macOS v1.3.21 · iOS v1.2.43 · tvOS v1.2.44
+### Latest Release: macOS v1.3.26 · iOS v1.2.47 · tvOS v1.2.47
+
+#### 🎬 Dolby Vision — Even More Brilliant Pictures
+
+- 🌈 **Dolby Vision Profile 5, 8.1 and 8.4**, in **MKV / MP4 / HLS**.
+- 🖥 Richer color and highlight detail on Dolby Vision–capable Macs, iPhones, iPads and Apple TVs with a supported display.
+- 📺 **Apple TV** switches your TV into Dolby Vision mode automatically during playback.
+- 💿 Dual-layer Blu-ray Dolby Vision (**Profile 7**) plays as HDR10.
+
+#### Also in this release
+
+- 💬 **Per-channel subtitle memory** — each channel remembers its subtitle on/off and translation language, so you don't have to set them again.
+- 🔎 **Smoother VOD filtering** — finding something to watch is easier.
+- 🌐 **Microsoft translation** — fixed issues with the Microsoft translation service.
+
+---
+
+### macOS v1.3.25 · iOS v1.2.46 · tvOS v1.2.46 — Xtream VOD
 
 <p align="center">
-  <img src="images/nanotv-ai-poster.jpg" alt="nanoTV new version — AI assistant: not just Q&A, but full action control" width="800">
+  <img src="images/vod-poster-en.jpg" alt="nanoTV Xtream VOD is now live" width="800">
 </p>
 
-#### ✨ nanoTV Doesn't Just Play — It Starts to Understand You
+#### 🎬 From Live to VOD — nanoTV Takes a Whole New Leap
 
-The nanoTV AI assistant is here — and it doesn't only answer questions, it carries out the action. Ask it to find a channel and play it, look up tonight's match in the EPG, set a reminder, add or refresh a subscription, or tidy up your favorites and channel tags. Together with QR subscription sharing, program reminders and a smoother player, finding something to watch has never taken fewer steps.
+Xtream VOD brings live TV, movies and series together on one platform — one complete, unified experience across iPhone, Apple TV and Mac. Enable it in *Settings → VOD*.
 
-<p align="center">
-  <img src="images/ai-assistant-en.png" alt="nanoTV AI Assistant" width="700">
-</p>
+- 🖼 **Poster wall** — Xtream VOD metadata is scraped automatically into a movie and series poster wall.
+- 🔥 **Trending** — the week's TMDB trending movies and series, matched automatically to your Xtream VOD library.
+- ⏯ **Resume playback** — progress for movies and episodes is remembered and synced across all three platforms via iCloud.
+- 🔄 **Trakt** — sync your watch history with Trakt.
+- 📥 **Offline** — download movies and episodes and watch them without a network.
+- 💬 **Subtitles** — search online (OpenSubtitles, SubDL, SubSource), load local subtitle files, or use AI transcription and translation.
+- 🔎 **Filter & search** — filter by genre, year, country/region and language; search by title, director or cast, plus global search.
+- ⭐ **Favorites & tags** — favorite and tag movies and series, synced via iCloud.
 
-- 🎬 **Take action** — search channels, start and stop playback, query the EPG, and quick-play a network stream then save it as a subscription.
-- 🗂 **Manage everything** — add, edit, refresh or delete M3U / Xtream / Stalker subscriptions, plus favorites, recents and channel tags.
-- 🧠 **Personal memory** — the assistant adapts to how you use nanoTV, and answers questions about subscriptions, AI subtitles, playback settings and Pro.
-- 🔌 **More providers** — **Google Gemini**, **NVIDIA** (free tier) and **Cloudflare** (free tier) join the list, with a model connection test. Enable it in *Settings → Assistant*.
+#### Other new features and improvements
 
-#### 🏷 Channel Tags — Your Categories, Your Rules
+- 🪟 **Multi-window playback** *(macOS)* — turn on *Settings → Playback → Always play in a new window*. Sound follows the active window, and AI subtitles can run in several windows at once.
+- ↕️ **Sort favorites** — for both live channels and movies & series.
+- 🌐 **EPG translation** — detects the guide's source language automatically, and lets you set the target language.
+- 🎞 **Frame-rate display** *(macOS, iOS)* — a more accurate readout for 60 fps and 25 fps playback.
+- 🎨 **iOS interface** — a cleaner channel list with fewer divider lines, and light-mode polish with light-mode channel logos.
+- 🛠 **Fixes** — tvOS search history display, channel playback from the global search page on tvOS 27, and a keyboard display issue on iOS.
 
-Subscription groups no longer decide how you browse. A single tag holds channels from any subscription, works across Mac, iPhone, iPad and Apple TV, and syncs through iCloud.
+---
 
-<p align="center">
-  <img src="images/channel-tags-full-en.png" alt="nanoTV Channel Tags" width="800">
-</p>
+<details>
+<summary>📋 Previous Releases</summary>
 
-- 🌐 **Global, cross-subscription categories** — one tag can gather channels from different subscriptions at the same time.
-- 🔖 **One channel, many tags** — the same channel can live in Premier League, Sports and 4K at once.
-- 🎨 **Colors and symbols to match** — 14 system colors plus “keep original”, 29 built-in symbols and official badges for the top five football leagues.
-- ↕️ **Order and batch edits** — drag to reorder (move up/down on tvOS), rename or restyle anytime, and sync it all through iCloud.
-
-#### 🔗 Subscription Sharing & Program Reminders
-
-- 📱 **QR sharing** — turn an M3U / Xtream Codes / Stalker Portal subscription into a QR code; iOS and macOS can scan it to add the subscription in one step.
-- 💬 **Telegram import** — import a nanoTV subscription straight from Telegram. The subscription name is now optional when adding.
-- ⏰ **Program reminders** — turn notifications on in *Settings → Program Guide*, then long-press a program that hasn't started yet in the guide to add a reminder.
-
-#### 🖥️ macOS v1.3.21
-
+### macOS v1.3.21
 - ✨ **AI Assistant** — search and play channels, query the EPG, set reminders and manage subscriptions, favorites and tags. Enable it in *Settings → Assistant*.
 - 🏷 **Channel Tags** — cross-subscription tags with 14 colors, 29 symbols and league badges, drag-to-reorder and iCloud sync.
 - 🔗 **QR Sharing & Reminders** — share M3U / Xtream / Stalker subscriptions as a QR code, import from Telegram, and set program reminders from the guide.
 - 🎞 **Playback & Compatibility** — fixes for PPV and other special sources, frame-rate info in the playback bar, better M3U parsing, more extended group formats and embedded User-Agent support.
 - 💬 **AI Subtitles** — fixed subtitle timing drift on some channels.
 
-#### 📱 iOS v1.2.43 (iPhone & iPad)
-
+### iOS v1.2.43 (iPhone & iPad)
 - ✨ **AI Assistant** — find a channel and play it, look up programs, create reminders and manage your subscriptions by asking. Enable it in *Settings → Assistant*.
 - 🏷 **Channel Tags** — build your own categories across subscriptions, synced to Mac and Apple TV via iCloud.
 - 📷 **Scan to Subscribe** — scan a shared QR code to add a subscription, import from Telegram, and leave the subscription name blank if you like.
 - 📂 **Open in Files** — long-press a media file in the **Files** app and play it straight in nanoTV.
 - ⏰ **Program Reminders** — long-press a program that hasn't started in the guide, plus improved M3U parsing and embedded User-Agent support.
 
-#### 📺 tvOS v1.2.44 (Apple TV)
-
+### tvOS v1.2.44 (Apple TV)
 - ✨ **AI Assistant** — ask for a channel, a match or a reminder right from the big screen. Enable it in *Settings → Assistant*.
 - 🏷 **Channel Tags** — the same tags as on Mac and iPhone, reordered with move up / move down on tvOS.
 - 🕹 **Smoother Guide Navigation** — a better scrolling feel in the guide's channel list, and scrolling past the last channel wraps back to the first.
 - 💬 **Subtitles & Formats** — fixed AI subtitle timing on some channels, with better M3U parsing, more extended group formats and embedded User-Agent support.
 - ⏰ **Program Reminders** — add reminders for programs that haven't started yet from the guide.
-
----
-
-<details>
-<summary>📋 Previous Releases</summary>
 
 ### macOS v1.3.20
 - 🗣 **Chinese & Japanese AI Subtitles** — live transcription for Mandarin and Japanese, plus Japanese translation and larger, window-adaptive subtitle sizes.
