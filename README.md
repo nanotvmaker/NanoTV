@@ -14,13 +14,25 @@
   </a>
 </p>
 
-**nanoTV** is a feature-rich, high-performance media player for **Mac, Apple TV, iPhone, and iPad**. Live TV, your own library and movies & series in one place with **Emby** and **Xtream VOD**, **catch-up TV**, **4K Blu-ray ISO** playback, **Dolby Vision**, **spatial audio with head tracking** on headphones, an AI assistant that finds channels and takes action, cross-subscription channel tags, program reminders, AI real-time subtitles in English, Chinese and Japanese, multi-engine translation, 50p deinterlacing for live sports, and 4K/8K hardware-accelerated playback.
+**nanoTV** is a feature-rich, high-performance media player for **Mac, Apple TV, iPhone, and iPad**. Live TV, your own library and movies & series in one place with **Emby** and **Xtream VOD**, **split-screen live TV**, **catch-up TV**, **4K Blu-ray ISO** playback, **Dolby Vision**, **surround sound output** on Apple TV, **spatial audio with head tracking** on headphones, an AI assistant that finds channels and takes action, cross-subscription channel tags, program reminders, AI real-time subtitles in English, Chinese and Japanese, multi-engine translation, 50p deinterlacing for live sports, and 4K/8K hardware-accelerated playback.
 
 🌐 **Website**: [nanotv.app](https://nanotv.app)
 
 ---
 
 ## ✨ Features
+
+### 🏠 All-New Home *(iPhone, iPad)*
+
+- **Spotlight stage**: A large view of what's on now from your recent channels, with color that flows into the page and subtle parallax as you scroll.
+- **Continue Watching**: Live TV, movies and series together, most recent first.
+- **Favorites**: Logo cards that play with one tap.
+
+### 🪟 Split-Screen Live TV *(Pro)*
+
+- **Channels**: Up to 4 at once on iPad and Apple TV, 2 on iPhone, in an even or main-and-secondary layout.
+- **Sound**: One view plays sound at a time, and adding a channel doesn't interrupt the others.
+- **Supported**: Live channels, including JS subscription channels. VOD and catch-up aren't supported yet.
 
 ### 📚 Emby Media Library
 
@@ -60,6 +72,7 @@ Your categories, your rules — subscription groups no longer decide how you bro
 
 ### 🎯 AI Subtitles & Translation
 - **AI Real-time Subtitles**: Live transcription for **English, Chinese (Mandarin) and Japanese**, with real-time translation into your language. Subtitle size adapts to the player window, with a frosted-glass or feathered background for clean, readable text.
+- **Subtitle Transcript** *(iPhone, iPad, Apple TV)*: AI subtitles become a timed transcript you can read back, with the original and translation side by side.
 - **ASS Styled Subtitles**: ASS subtitles keep their styling and effects.
 - **Multi-engine Translation**: Choose the engine that fits you — **Apple on-device translation** (macOS and iOS), **DeepL**, **large language models (LLM)**, **Google**, **Microsoft**, or your own self-hosted API.
 
@@ -70,9 +83,10 @@ Your categories, your rules — subscription groups no longer decide how you bro
 - **50p Deinterlacing**: YADIF 2x turns 1080i 25fps into smooth 50p — built for sports and live news, with sharper single-frame display for 1080i interlaced video.
 - **Frame Rate & Dynamic Range Matching** *(Apple TV)*: Matches the output frame rate (25/50/60fps) and dynamic range (SDR/HDR/HLG) to the source.
 - **Adjustable Live Buffer**: Balance stability against latency on IPTV streams.
-- **Hardware Acceleration & Formats**: H.264/H.265 up to 4K and 8K, fast HLS start-up, MMTP/TLV streams, AV3A audio decoding, Dolby audio output (experimental on Apple TV) and refined SDR color rendering.
+- **Hardware Acceleration & Formats**: H.264/H.265 up to 4K and 8K, fast HLS start-up, MMTP/TLV streams, AV3A audio decoding and refined SDR color rendering.
 
 ### 🎧 Audio
+- **Surround Sound Output** *(Apple TV)*: 5.1 / 7.1 output to your receiver or soundbar, with Dolby Atmos over Dolby Digital Plus and lossless TrueHD and DTS-HD MA from Blu-ray discs.
 - **Multichannel & Spatial Audio** *(macOS, iOS)*: Multichannel output, with spatial audio and head tracking on headphones.
 - **High-quality Audio Track**: The highest-quality audio track is picked automatically.
 - **Volume Normalization**: Evens out loudness between channels and programs.
@@ -86,6 +100,8 @@ Your categories, your rules — subscription groups no longer decide how you bro
 - **Remote Management & Network**: Add subscriptions from a computer or phone — including Xtream Codes, Stalker Portal and TVHeadend via QR code. SOCKS5 and HTTP proxies plus per-subscription User-Agent keep hard-to-reach sources playable.
 
 ### 🖥 Experience
+- **iPhone Duo**: Playback continues as you close, open or half-fold, with table and book layouts that avoid the crease.
+- **Sleep Timer** *(iOS)*: Stop playback after 15, 30, 60 or 90 minutes, or when the episode ends.
 - **Immersive Channel Preview** *(Apple TV)*: The home screen hero plays the current channel live, and the TV Guide previews any channel your cursor rests on. Muted by default; sound returns when you go full screen.
 - **Favorites & History**: Start from a favorite and channel switching stays inside your favorites; recent channels are one swipe away. Sort favorite channels, movies and series, and each channel remembers its subtitle and translation settings.
 - **Multi-window Playback** *(macOS)*: Watch several streams at once — sound follows the active window, and AI subtitles can run in several windows.
@@ -100,15 +116,74 @@ Your categories, your rules — subscription groups no longer decide how you bro
 | Platform | Version | Link |
 |----------|---------|------|
 | **macOS** (Stable) | 1.3.27 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **iOS / iPadOS** (Stable) | 1.2.48 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
-| **tvOS** (Stable) | 1.2.48 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **iOS / iPadOS** (Stable) | 1.2.49 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
+| **tvOS** (Stable) | 1.2.49 | [Download on App Store](https://apps.apple.com/us/app/nanotv/id6754768796) |
 | **TestFlight** (Beta) | — | Temporarily unavailable |
 
 ---
 
 ## 📝 Release Notes
 
-### Latest Release: macOS v1.3.27 · iOS v1.2.48 · tvOS v1.2.48
+### Latest Release: iOS v1.2.49 · tvOS v1.2.49
+
+<p align="center">
+  <img src="images/new-home-poster-en.jpg" alt="nanoTV new release — the all-new iOS home screen on iPhone" width="800">
+</p>
+
+#### 🚀 Breathtaking, Far Beyond the Screen
+
+An all-new iOS home screen where color flows into every swipe, plus split-screen live TV, surround sound on Apple TV and a full subtitle transcript.
+
+#### 🏠 All-New Home *(iOS)*
+
+- 🎬 **Spotlight stage** shows what's on now from your recent channels, with channel, program and time remaining.
+- ✨ Color flows into the page with subtle parallax, adapting to light and dark appearance and Reduce Motion.
+- ▶️ **Continue Watching** brings live TV, movies and series together, most recent first.
+- ⭐ Favorite channels appear as **logo cards** that play with one tap; channels without a logo get a text mark.
+- 📐 Better layouts on iPhone, iPad, in landscape and in split view.
+
+#### 📲 iPhone Duo
+
+- 🔄 Playback continues as you close, open or half-fold.
+- 💻 **Table mode**: the top screen plays, the bottom shows controls and the guide.
+- 📖 **Book mode**: one side shows the guide, the other the video.
+- 🧩 The guide and VOD poster wall resize to the screen and avoid the crease.
+
+#### 🔊 Surround Sound Output *(tvOS)*
+
+Turn it on in *Settings → Playback → Sound*. It replaces the Dolby Audio Output switch and keeps your setting.
+
+- 🎬 **Dolby Atmos**: Dolby Digital Plus Atmos tracks from streams and Emby, including height channels on an Atmos receiver or soundbar. Set Apple TV's Audio Format to Auto.
+- 💿 **Lossless multichannel**: Blu-ray TrueHD and DTS-HD MA output as lossless 5.1 / 7.1 PCM. TrueHD Atmos currently plays as lossless 7.1, without height channels.
+- 🎼 **More formats**: DTS, FLAC and multichannel AAC also output in 5.1 / 7.1.
+- 📺 **TV speakers**: The system downmixes automatically so dialogue stays clear.
+
+#### 🪟 Split-Screen Live TV *(Pro)*
+
+- 📺 Up to **4 channels** on iPad and Apple TV, **2** on iPhone, in an even or main-and-secondary layout.
+- 🔈 One view plays sound at a time: tap to switch on iPhone / iPad, or use left and right on the Apple TV remote.
+- ➕ Long-press a channel in the channel list or guide, or use the Split Screen button in the player. Channels already playing keep going.
+- ℹ️ Live channels only, including JS subscription channels.
+
+#### 📝 Subtitle Transcript *(iOS, tvOS)*
+
+- 📖 AI subtitles become a timed transcript you can read back, with the original and translation side by side.
+- 🧠 Whole sentences are re-recognized for more coherent line breaks and translation.
+- 📱 **iPhone / iPad**: Bilingual, original-only or translation-only view, with copy and export.
+- 📺 **Apple TV**: Turn it on under AI real-time subtitles; swipe right on the remote to read back.
+
+#### 🛠 Improvements & Fixes
+
+- ⏲ **Sleep timer** on iOS: 15, 30, 60 or 90 minutes, or when the episode ends.
+- **Stalker**: MAC address auto-fill from the subscription link, expiry date and max connections when the source provides them, and no `ffmpeg` prefix in displayed channel links.
+- **Xtream**: Subscription info shows max connections.
+- Fixed Simplified Chinese translations mixing in Traditional characters.
+- Fixed on-demand items sometimes staying first in Continue Watching.
+- Fixed startup auto-refresh being skipped or delayed in certain cases.
+
+---
+
+### macOS v1.3.27 · iOS v1.2.48 · tvOS v1.2.48 — Emby Media Library
 
 <p align="center">
   <img src="images/emby-poster-en.jpg" alt="nanoTV new release — Emby media library, catch-up TV and spatial audio" width="800">
@@ -153,6 +228,9 @@ Crafted with care, so every update gets closer to how you watch. This release br
 
 ---
 
+<details>
+<summary>📋 Previous Releases</summary>
+
 ### macOS v1.3.26 · iOS v1.2.47 · tvOS v1.2.47 — Dolby Vision
 
 #### 🎬 Dolby Vision — Even More Brilliant Pictures
@@ -169,9 +247,6 @@ Crafted with care, so every update gets closer to how you watch. This release br
 - 🌐 **Microsoft translation** — fixed issues with the Microsoft translation service.
 
 ---
-
-<details>
-<summary>📋 Previous Releases</summary>
 
 ### macOS v1.3.25 · iOS v1.2.46 · tvOS v1.2.46 — Xtream VOD
 
